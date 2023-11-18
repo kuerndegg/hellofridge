@@ -1,14 +1,21 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
+import json
+import os
+
+def load_recipes():
+    if os.path.exists('recipes.json'):
+        with open('recipes.json', 'r') as file:
+            recipes = json.load(file)
+    else:
+        recipes = []
+    return recipes
+
 
 app = FastAPI()
 
 # Mock data for recipes
-recipes = [
-    {"id": 1, "title": "Pasta Carbonara", "description": "Delicious pasta dish"},
-    {"id": 2, "title": "Chicken Curry", "description": "Spicy chicken curry"},
-    # Add more recipes here
-]
+recipes = load_recipes()
 
 # Mock data for ingredients
 ingredients = [
