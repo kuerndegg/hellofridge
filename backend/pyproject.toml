@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hellofridge"
+version = "0.1.0"
+description = "Backend for Hello Fridge to customize your Hello Fresh Order. #hackaTUM2023"
+authors = ["Lukas Holzner, Simon Holzner, Alexandra Lang"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+openai = "^1.3.3"
+uvicorn = "^0.24.0.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
