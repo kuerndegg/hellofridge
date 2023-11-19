@@ -91,7 +91,7 @@ export default {
                 this.number_selected -= 1
         },
         getRecipe() {
-            axios.get('http://localhost:8000/recipe/' + this.id + '/')
+            axios.get('https://hellofridgebackend.lholz.de/recipe/' + this.id + '/')
                 .then(response => {
                     console.log(response)
                     this.recipe = response.data

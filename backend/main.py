@@ -6,7 +6,7 @@ from typing import List, Optional
 import json
 import os
 
-HOSTURL = "http://localhost:8000"
+HOSTURL = "https://hellofridgebackend.lholz.de"
 
 def load_recipes():
     if os.path.exists('recipes.json'):

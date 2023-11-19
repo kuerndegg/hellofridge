@@ -34,7 +34,7 @@ export default {
   },
   data() {
     return{
-      db_address: "http://localhost:8000",
+      db_address: "https://hellofridgebackend.lholz.de",
       selection: "order",
       recipeViewVisible: false,
       selectedRecipe: 0,
