@@ -17,7 +17,7 @@
                 "amount": "1 unit(s)"
             },
             {
-                "item": "Tenderstem Broccoli",
+                "item": "Broccoli",
                 "amount": "80 grams"
             },
             {
@@ -83,10 +83,6 @@
                 "amount": "3 unit(s)"
             },
             {
-                "item": "Chicken Thighs",
-                "amount": "450 grams)"
-            },
-            {
                 "item": "Potatoes",
                 "amount": "450 grams"
             },
@@ -95,7 +91,7 @@
                 "amount": "1 sachet(s)"
             },
             {
-                "item": "Soured Cream",
+                "item": "Sour Cream",
                 "amount": "75 grams"
             },
             {
@@ -140,8 +136,8 @@
                 "amount": "1 bunch(es)"
             },
             {
-                "item": "Garlic Clove",
-                "amount": "1 unit(s)"
+                "item": "Garlic",
+                "amount": "1 Clove"
             },
             {
                 "item": "Chicken Stock Paste",
@@ -186,7 +182,7 @@
                 "amount": "1 sachet(s)"
             },
             {
-                "item": "Carrot",
+                "item": "Carrots",
                 "amount": "3 unit(s)"
             },
             {
@@ -229,7 +225,7 @@
         ],
         "ingredients": [
             {
-                "item": "Carrot",
+                "item": "Carrots",
                 "amount": "3 unit(s)"
             },
             {
@@ -245,7 +241,7 @@
                 "amount": "15 grams"
             },
             {
-                "item": "Wholegrain Mustard",
+                "item": "Mustard",
                 "amount": "17 grams"
             },
             {
@@ -285,7 +281,7 @@
                 "amount": "1 sachet(s)"
             },
             {
-                "item": "Plain Flour",
+                "item": "Flour",
                 "amount": "3 tbsp"
             }
         ],
@@ -320,15 +316,15 @@
                 "amount": "20 grams"
             },
             {
-                "item": "Flat Leaf Parsley",
+                "item": "Parsley",
                 "amount": "1 bunch(es)"
             },
             {
-                "item": "Unsalted Butter",
+                "item": "Butter",
                 "amount": "30 grams"
             },
             {
-                "item": "Olive Oil",
+                "item": "Oil",
                 "amount": "1.5 tbsp"
             }
         ],
@@ -351,8 +347,8 @@
                 "amount": "700 grams"
             },
             {
-                "item": "Garlic Clove",
-                "amount": "3 unit(s)"
+                "item": "Garlic",
+                "amount": "3 Cloves"
             },
             {
                 "item": "Rosemary",
@@ -598,7 +594,7 @@
         ],
         "ingredients": [
             {
-                "item": "Garlic Clove",
+                "item": "Garlic",
                 "amount": "3 unit(s)"
             },
             {
@@ -717,7 +713,7 @@
                 "amount": "80 grams"
             },
             {
-                "item": "Garlic Clove",
+                "item": "Garlic",
                 "amount": "1 unit(s)"
             },
             {
@@ -785,7 +781,7 @@
                 "amount": "3 unit(s)"
             },
             {
-                "item": "Garlic Clove",
+                "item": "Garlic",
                 "amount": "2 unit(s)"
             },
             {
@@ -810,7 +806,7 @@
             }
         ],
         "steps": [
-            "Preheat your oven to 220\u00b0C/200\u00b0C fan/gas mark 7. Bring a large saucepan of water with 1/2 tsp salt to the boil for the potatoes.\n\nChop the potatoes into 2cm chunks (peel first if you prefer).\n\nTrim the parsnip, then halve lengthways (no need to peel). Chop into 2cm chunks. \n\nPeel the garlic, but keep them whole. \n\nWhen boiling, add the potatoes, parsnips and whole garlic cloves to the water and cook until you can easily slip a knife through, 15-20 mins.",
+            "Preheat your oven to 220\u00b0C/200\u00b0C fan/gas mark 7. Bring a large saucepan of water with 1/2 tsp salt to the boil for the potatoes.\n\nChop the potatoes into 2cm chunks (peel first if you prefer).\n\nTrim the parsnip, then halve lengthways (no need to peel). Chop into 2cm chunks. \n\nPeel the garlic, but keep them whole. \n\nWhen boiling, add the potatoes, parsnips and whole Garlics to the water and cook until you can easily slip a knife through, 15-20 mins.",
             "Meanwhile, trim the carrots, then halve lengthways (no need to peel). Chop into roughly 1cm wide, 5cm long batons.\n\nPop the carrots onto one side of a large baking tray. Drizzle with oil, sprinkle over the rosemary and season with salt and pepper. Toss to coat, then spread out in a single layer.\n\nPop the sausages onto the other side of the baking tray. TIP: Use two baking trays if necessary. IMPORTANT: Wash your hands and equipment after handling raw meat.",
             "When the oven's hot, bake the sausages and carrots on the top shelf until the sausages are golden brown and cooked through and the carrots are tender, 20-25 mins. IMPORTANT: The sausages are cooked when no longer pink in the middle.\n\nTurn the sausages and carrots halfway through.",
             "Meanwhile, pour the water for the jus (see pantry for amount) into another small saucepan. Bring to the boil on high heat.\n\nStir in the red wine jus paste, then reduce the heat to medium-low. Allow the sauce to bubble and thicken, stirring regularly, 8-9 mins.\n\nOnce thickened, remove from the heat and cover to keep warm. Add a splash of water if it's a little too thick. TIP: If your red wine jus paste has hardened, pop it in a bowl of hot water for 1 min.",
@@ -880,7 +876,7 @@
         ],
         "ingredients": [
             {
-                "item": "Garlic Clove",
+                "item": "Garlic",
                 "amount": "2 unit(s)"
             },
             {
@@ -934,7 +930,7 @@
                 "amount": "150 grams"
             },
             {
-                "item": "Garlic Clove",
+                "item": "Garlic",
                 "amount": "2 unit(s)"
             },
             {
@@ -1023,7 +1019,7 @@
                 "amount": "1 unit(s)"
             },
             {
-                "item": "Garlic Clove",
+                "item": "Garlic",
                 "amount": "2 unit(s)"
             },
             {

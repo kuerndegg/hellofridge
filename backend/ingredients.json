@@ -48,5 +48,8 @@
     {"name": "White Beans", "category": "Proteins", "image": "white_beans.png"},
     {"name": "White Cabbage", "category": "Vegetables", "image": "white_cabbage.png"},
     {"name": "Yogurt", "category": "Dairy", "image": "yogurt.png"},
-    {"name": "Zucchini", "category": "Vegetables", "image": "zuchini.png"}
+    {"name": "Zucchini", "category": "Vegetables", "image": "zuchini.png"},
+    {"name": "Ketchup", "category": "Condiments", "image": "ketchup.png"},
+    {"name": "Mayonnaise", "category": "Condiments", "image": "mayonnaise.png"},
+    {"name": "Mustard", "category": "Condiments", "image": "mustard.png"}
 ]
