@@ -1,6 +1,6 @@
 <template>
     <v-card class="w-100 h-100 rounded-0">
-        <v-toolbar density="compact" color="green">
+        <v-toolbar color="green">
             <v-btn icon @click="this.$emit('switchView', null)">
                 <v-icon>mdi-arrow-left</v-icon>
             </v-btn>
@@ -20,24 +20,40 @@
             <p class="text-subtitle-2">Category:</p>
             <p class="text-body-2">{{ recipe.tags.join(', ') }}</p>
 
-            <v-divider></v-divider>
+            <v-divider class="my-2"></v-divider>
+            <span class="text-h6">Ingredients</span>
+            <v-list>
+                <v-list-item-group>
+                    <v-list-item v-for="ingredient in recipe.ingredients" :key="ingredient.item">
+                        <v-list-item-content>
+                            <v-list-item-title>
+                                {{ ingredient.item }}
+                                <v-chip v-if="store.getSelectedIngredients.includes(ingredient.item)" color="lime"
+                                    class="justify-end">
+                                    <v-icon>mdi-check</v-icon>
+                                </v-chip>
+                            </v-list-item-title>
+                            <v-list-item-subtitle>{{ ingredient.amount }}</v-list-item-subtitle>
+                        </v-list-item-content>
+                    </v-list-item>
+                </v-list-item-group>
+            </v-list>
 
-            <v-expansion-panels>
-                <v-expansion-panel title="Ingredients">
-                    <v-expansion-panel-content>
-                        <v-list>
-                            <v-list-item-group>
-                                <v-list-item v-for="ingredient in recipe.ingredients" :key="ingredient.item">
-                                    <v-list-item-content>
-                                        <v-list-item class="align-start">{{ ingredient.item }}</v-list-item>
-                                        <v-list-item class="align-end">{{ ingredient.amount }}</v-list-item>
-                                    </v-list-item-content>
-                                </v-list-item>
-                            </v-list-item-group>
-                        </v-list>
-                    </v-expansion-panel-content>
-                </v-expansion-panel>
-            </v-expansion-panels>
+            <v-divider class="my-2"></v-divider>
+
+            <span class="text-h6">Steps</span>
+            <v-list>
+                <v-list-item-group>
+                    <v-list-item v-for="step in recipe.steps" :key="step">
+                        <v-list-item-content>
+                            <v-card>
+                                {{ step }}
+                            </v-card>
+                        </v-list-item-content>
+                    </v-list-item>
+                </v-list-item-group>
+            </v-list>
+
 
         </v-card-text>
     </v-card>
@@ -45,6 +61,7 @@
 
 <script>
 import axios from 'axios';
+import { useAppStore } from '@/store/app';
 
 export default {
     name: 'Recipe',
@@ -87,6 +104,10 @@ export default {
     },
     mounted() {
         this.getRecipe();
+    },
+    setup() {
+        const store = useAppStore()
+        return { store }
     }
 }
 

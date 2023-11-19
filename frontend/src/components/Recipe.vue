@@ -11,6 +11,7 @@
 <script>
 import RecipeCard from './RecipeCard.vue';
 import axios from 'axios';
+import { useAppStore } from '@/store/app';
 
 export default {
     name: 'Recipe',
@@ -29,7 +30,7 @@ export default {
     },
     methods: {
         getRecipe() {
-            axios.get(this.db_address.toString() + "/recipes")
+            axios.post(this.db_address.toString() + "/recipes", this.store.getSelectedIngredients)
                 .then(response => {
                     this.recipes = response.data;
                 })
@@ -40,6 +41,10 @@ export default {
     },
     mounted() {
         this.getRecipe();
+    },
+    setup() {
+        const store = useAppStore()
+        return { store }
     }
 }
 

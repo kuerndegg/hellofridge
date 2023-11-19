@@ -76,7 +76,7 @@
             },
             {
                 "item": "Lime",
-                "amount": "\u00bd unit(s)"
+                "amount": "0.5 unit(s)"
             },
             {
                 "item": "Chicken Thighs",
@@ -338,9 +338,7 @@
         "title": "Festive Roast Lamb and Mint Sauce with Roast Potatoes, Honey Glazed Root Veg and Red Wine Jus",
         "url": "https://www.hellofresh.co.uk/recipes/festive-roast-lamb-and-mint-sauce-65255c09be675f371f8b4c0e",
         "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_500,q_30,w_1260/hellofresh_s3/image/HF_Y23_R33_W50_UK_SR10903-3_Main__1low-4a378611.jpg",
-        "tags": [
-            ""
-        ],
+        "tags": [],
         "ingredients": [
             {
                 "item": "Potatoes",
@@ -396,7 +394,7 @@
             },
             {
                 "item": "Salt",
-                "amount": "\u00be tsp"
+                "amount": "0.75 tsp"
             },
             {
                 "item": "Water for the Jus",
@@ -441,7 +439,7 @@
             },
             {
                 "item": "Lime",
-                "amount": "\u00bd unit(s)"
+                "amount": "0.5 unit(s)"
             },
             {
                 "item": "Diced Chicken Thigh",

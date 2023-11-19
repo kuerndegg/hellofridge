@@ -89,10 +89,10 @@ def get_ingredients()->List[Ingredient]:
 def get_recipes_by_ingredients(ingredients: List[str])->List[Recipe]:
     recipes_by_ingredients = recipes.copy()
     for recipe in recipes_by_ingredients:
-        at_home = 0
+        recipe['at_home'] = 0
         for ingredient in recipe['ingredients']:
             if ingredient['item'] in ingredients:
-                at_home += 1
+                recipe['at_home'] += 1
     # sort by number of ingredients at home
     for i in range(len(recipes_by_ingredients)):
         for j in range(i+1, len(recipes_by_ingredients)):

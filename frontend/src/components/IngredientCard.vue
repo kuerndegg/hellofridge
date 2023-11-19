@@ -15,13 +15,15 @@
         </div>
       </v-col>
     </v-row>
-    <span class="text-caption text-center d-flex justify-center" style="max-width: 65px;">
+    <span class="text-caption text-center d-flex justify-center" style="max-width: 65px; max-height: 5px;">
       {{ name }}
     </span>
   </v-container>
 </template>
   
 <script>
+import { useAppStore } from '@/store/app';
+
 export default {
   data() {
     return {
@@ -44,6 +46,15 @@ export default {
       this.$emit('toggle', this.name, this.isSelected);
     },
   },
+  mounted() {
+    const store = useAppStore();
+    this.isSelected = store.getSelectedIngredients.includes(this.name);
+  },
+
+  setup() {
+        const store = useAppStore()
+        return { store }
+    }
 };
 </script>
   

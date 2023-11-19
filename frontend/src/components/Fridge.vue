@@ -1,13 +1,13 @@
 <template>
     <v-container>
         <v-row justify="space-between" class="mx-5">
-            <v-btn v-for="category in categories" :key="category.name" round :color="getButtonColor(category)" icon @click="toggle(category)">
+            <v-btn v-for="category in categories" :key="category.name" round :color="getButtonColor(category)" icon
+                @click="toggle(category)">
                 <v-icon color="green">{{ category.icon }}</v-icon>
             </v-btn>
         </v-row>
         <v-row>
-            <v-col cols="3" v-for="ingredient in filteredIngredients" :key="ingredient.name"
-                class="d-flex justify-center">
+            <v-col cols="3" v-for="ingredient in filteredIngredients" :key="ingredient.name" class="d-flex justify-center">
                 <IngredientCard :imageSrc="ingredient.image" :name="ingredient.name" @toggle="addToSelected" />
             </v-col>
         </v-row>
@@ -17,6 +17,7 @@
 <script>
 import IngredientCard from './IngredientCard.vue';
 import axios from 'axios';
+import { useAppStore } from '@/store/app';
 
 export default {
     components: {
@@ -69,12 +70,24 @@ export default {
         getButtonColor(category) {
             return this.selectedCategory.name === category.name ? 'light_green' : 'white';
         },
-        addToSelected(name, isSelected) {
-
-        }
     },
     mounted() {
         this.getIngredients();
+    },
+    setup() {
+        const appStore = useAppStore();
+
+        const addToSelected = (name, isSelected) => {
+            if (isSelected) {
+                appStore.addIngredient(name);
+            } else {
+                appStore.removeIngredient(name);
+            }
+        };
+
+        return {
+            addToSelected,
+        };
     },
 }
 </script>

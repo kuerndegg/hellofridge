@@ -33,7 +33,7 @@
     {"name": "Parsley", "category": "Condiments", "image": "parsley.png"},
     {"name": "Peanuts", "category": "Grains and Starches", "image": "peanuts.png"},
     {"name": "Penne", "category": "Grains and Starches", "image": "penne.png"},
-    {"name": "Potatoes", "category": "Grains and Starches", "image": "potatoes.png"},
+    {"name": "Potatoes", "category": "Vegetables", "image": "potatoes.png"},
     {"name": "Pumpkin", "category": "Vegetables", "image": "pumpkin.png"},
     {"name": "Red Cabbage", "category": "Vegetables", "image": "red_cabbage.png"},
     {"name": "Rice", "category": "Grains and Starches", "image": "rice.png"},

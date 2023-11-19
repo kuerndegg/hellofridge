@@ -1,7 +1,10 @@
 <template>
   <v-app v-if="!recipeViewVisible">
     <v-app-bar color="green">
-      <v-toolbar-title class="text-center flex-grow-1">{{ selection.charAt(0).toUpperCase() + selection.slice(1) }}</v-toolbar-title>
+      <v-toolbar-title class="flex-grow-1">{{ selection.charAt(0).toUpperCase() + selection.slice(1) }}</v-toolbar-title>
+      <v-btn icon v-if="selection === 'fridge'" @click="store.clearIngredients">
+        <v-icon>mdi-trash-can</v-icon>
+      </v-btn>
     </v-app-bar>
     <v-main class="mt-6">
       <Fridge v-if="selection === 'fridge'" :db_address="db_address"/>
@@ -19,6 +22,7 @@ import Fridge from '../components/Fridge.vue';
 import About from '../components/About.vue';
 import RecipeView from '../components/RecipeView.vue';
 import BottomNav from '../components/BottomNav.vue';
+import { useAppStore } from '@/store/app';
 
 export default {
   components: {
@@ -44,6 +48,10 @@ export default {
     changeView(item) {
       this.selection = item;
     },
+  },
+  setup() {
+      const store = useAppStore()
+      return { store }
   }
 };
 </script>
