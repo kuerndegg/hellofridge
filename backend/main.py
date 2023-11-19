@@ -85,5 +85,17 @@ def get_recipe(id: int)->Recipe:
 def get_ingredients()->List[Ingredient]:
     return ingredients
 
-@app.post("/recipes-by-ingredients")
-def 
+@app.post("/recipes")
+def get_recipes_by_ingredients(ingredients: List[str])->List[Recipe]:
+    recipes_by_ingredients = recipes.copy()
+    for recipe in recipes_by_ingredients:
+        at_home = 0
+        for ingredient in recipe['ingredients']:
+            if ingredient['item'] in ingredients:
+                at_home += 1
+    # sort by number of ingredients at home
+    for i in range(len(recipes_by_ingredients)):
+        for j in range(i+1, len(recipes_by_ingredients)):
+            if recipes_by_ingredients[i]['at_home'] < recipes_by_ingredients[j]['at_home']:
+                recipes_by_ingredients[i], recipes_by_ingredients[j] = recipes_by_ingredients[j], recipes_by_ingredients[i]
+    return recipes_by_ingredients

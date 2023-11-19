@@ -23,8 +23,19 @@
             <v-divider></v-divider>
 
             <v-expansion-panels>
-                <v-expansion-panel title="Title"
-                    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima">
+                <v-expansion-panel title="Ingredients">
+                    <v-expansion-panel-content>
+                        <v-list>
+                            <v-list-item-group>
+                                <v-list-item v-for="ingredient in recipe.ingredients" :key="ingredient.item">
+                                    <v-list-item-content>
+                                        <v-list-item class="align-start">{{ ingredient.item }}</v-list-item>
+                                        <v-list-item class="align-end">{{ ingredient.amount }}</v-list-item>
+                                    </v-list-item-content>
+                                </v-list-item>
+                            </v-list-item-group>
+                        </v-list>
+                    </v-expansion-panel-content>
                 </v-expansion-panel>
             </v-expansion-panels>
 
@@ -34,13 +45,9 @@
 
 <script>
 import axios from 'axios';
-import IngredientCard from './IngredientCard.vue';
 
 export default {
     name: 'Recipe',
-    components: {
-        IngredientCard,
-    },
     data: () => ({
         at_home: 1,
         number_selected: 0,

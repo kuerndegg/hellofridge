@@ -34,7 +34,6 @@
 export default {
     name: 'Recipe',
     data: () => ({
-        at_home: 1,
         number_selected: 0,
         servings: 2,
     }),
@@ -54,7 +53,11 @@ export default {
         id: {
             type: Number,
             required: true,
-        }
+        },
+        at_home: {
+            type: Number,
+            required: true,
+        },
     },
     methods: {
         incrementSelected() {
