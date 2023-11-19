@@ -1,6 +1,6 @@
 [
     {"name": "Tomato", "category": "Vegetables", "image": "tomatoes.png"},
-    {"name": "Chicken", "category": "Proteins", "image": "chicken_breast.png"},
+    {"name": "Chicken Breasts", "category": "Proteins", "image": "chicken_breast.png"},
     {"name": "Balsamic Vinegar", "category": "Condiments", "image": "balsamic_vinegar.png"},
     {"name": "Cherry Tomatoes", "category": "Vegetables", "image": "cherry_tomatoes.png"},
     {"name": "Garlic", "category": "Condiments", "image": "garlic.png"},
