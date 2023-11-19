@@ -120,7 +120,7 @@
         ],
         "ingredients": [
             {
-                "item": "Skin-On Chicken Breasts",
+                "item": "Chicken Breasts",
                 "amount": "2 unit(s)"
             },
             {
@@ -363,7 +363,7 @@
                 "amount": "450 unit(s)"
             },
             {
-                "item": "Carrot",
+                "item": "Carrots",
                 "amount": "3 unit(s)"
             },
             {
@@ -387,11 +387,11 @@
                 "amount": "15 grams"
             },
             {
-                "item": "Plain Flour",
+                "item": "Flour",
                 "amount": "3 tbsp"
             },
             {
-                "item": "Olive Oil",
+                "item": "Oil",
                 "amount": "2 tbsp"
             },
             {
@@ -432,7 +432,7 @@
         ],
         "ingredients": [
             {
-                "item": "Jasmine Rice",
+                "item": "Rice",
                 "amount": "150 grams"
             },
             {
@@ -473,7 +473,7 @@
         ],
         "ingredients": [
             {
-                "item": "Carrot",
+                "item": "Carrots",
                 "amount": "4 unit(s)"
             },
             {
@@ -481,11 +481,11 @@
                 "amount": "2 unit(s)"
             },
             {
-                "item": "Broccoli Florets",
+                "item": "Broccoli",
                 "amount": "300 grams"
             },
             {
-                "item": "Salted Peanuts",
+                "item": "Peanuts",
                 "amount": "25 grams"
             },
             {
@@ -532,11 +532,11 @@
                 "amount": "80 grams"
             },
             {
-                "item": "Carrot",
+                "item": "Carrots",
                 "amount": "1 unit(s)"
             },
             {
-                "item": "Jasmine Rice",
+                "item": "Rice",
                 "amount": "150 grams"
             },
             {
@@ -568,7 +568,7 @@
                 "amount": "300 milliliter(s)"
             },
             {
-                "item": "Sugar for the Pickle",
+                "item": "Sugar",
                 "amount": "1 tsp"
             },
             {
@@ -595,7 +595,7 @@
         "ingredients": [
             {
                 "item": "Garlic",
-                "amount": "3 unit(s)"
+                "amount": "3 Cloves"
             },
             {
                 "item": "Basmati Rice",
@@ -606,7 +606,7 @@
                 "amount": "2 unit(s)"
             },
             {
-                "item": "Tenderstem Broccoli",
+                "item": "Broccoli",
                 "amount": "150 grams"
             },
             {
@@ -618,7 +618,7 @@
                 "amount": "5 grams"
             },
             {
-                "item": "Sesame Oil",
+                "item": "Oil",
                 "amount": "20 milliliter(s)"
             },
             {
@@ -654,11 +654,11 @@
         ],
         "ingredients": [
             {
-                "item": "Onion",
+                "item": "Onions",
                 "amount": "1 unit(s)"
             },
             {
-                "item": "Medium Tomato",
+                "item": "Tomato",
                 "amount": "1 unit(s)"
             },
             {
@@ -678,7 +678,7 @@
                 "amount": "1 bunch(es)"
             },
             {
-                "item": "Riced Cauliflower",
+                "item": "Cauliflower",
                 "amount": "250 grams"
             },
             {
@@ -714,7 +714,7 @@
             },
             {
                 "item": "Garlic",
-                "amount": "1 unit(s)"
+                "amount": "1 Clove"
             },
             {
                 "item": "Chicken Stock Paste",
@@ -729,7 +729,7 @@
                 "amount": "260 grams"
             },
             {
-                "item": "Medium Tomato",
+                "item": "Tomato",
                 "amount": "1 unit(s)"
             },
             {
@@ -782,10 +782,10 @@
             },
             {
                 "item": "Garlic",
-                "amount": "2 unit(s)"
+                "amount": "2 Cloves"
             },
             {
-                "item": "Carrot",
+                "item": "Carrots",
                 "amount": "3 unit(s)"
             },
             {
@@ -832,10 +832,10 @@
             },
             {
                 "item": "Lemon",
-                "amount": "\u00bd unit(s)"
+                "amount": "1/2 unit(s)"
             },
             {
-                "item": "Unsalted Butter",
+                "item": "Butter",
                 "amount": "60 grams"
             },
             {
@@ -843,11 +843,11 @@
                 "amount": "1 sachet(s)"
             },
             {
-                "item": "Caster Sugar",
+                "item": "Sugar",
                 "amount": "75 grams"
             },
             {
-                "item": "Plain Flour",
+                "item": "Flour",
                 "amount": "56.25 grams"
             },
             {
@@ -877,10 +877,10 @@
         "ingredients": [
             {
                 "item": "Garlic",
-                "amount": "2 unit(s)"
+                "amount": "2 Cloves"
             },
             {
-                "item": "Penne Pasta",
+                "item": "Penne",
                 "amount": "180 grams"
             },
             {
@@ -926,12 +926,12 @@
         ],
         "ingredients": [
             {
-                "item": "Tenderstem Broccoli",
+                "item": "Broccoli",
                 "amount": "150 grams"
             },
             {
                 "item": "Garlic",
-                "amount": "2 unit(s)"
+                "amount": "2 Cloves"
             },
             {
                 "item": "Chicken Breasts",
@@ -946,7 +946,7 @@
                 "amount": "200 grams"
             },
             {
-                "item": "Cr\u00e8me fra\u00eeche",
+                "item": "Creme fraiche",
                 "amount": "150 grams"
             },
             {
@@ -1020,14 +1020,14 @@
             },
             {
                 "item": "Garlic",
-                "amount": "2 unit(s)"
+                "amount": "2 Cloves"
             },
             {
                 "item": "Green Beans",
                 "amount": "80 grams"
             },
             {
-                "item": "Diced Chicken Breast",
+                "item": "Chicken Breast",
                 "amount": "300 grams"
             },
             {
@@ -1051,7 +1051,7 @@
                 "amount": "1 sachet(s)"
             },
             {
-                "item": "Riced Cauliflower",
+                "item": "Cauliflower",
                 "amount": "250 grams"
             },
             {
@@ -1060,7 +1060,7 @@
             },
             {
                 "item": "Salt",
-                "amount": "\u00bc tsp"
+                "amount": "3/4 tsp"
             },
             {
                 "item": "Butter",
